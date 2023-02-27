@@ -1,0 +1,15 @@
+access - հասանելիություն
+binary - երկուական
+decimal - տասական
+download - ներբեռնել
+function - ֆունկցիա
+hardware - ապարատային ապահովում
+hexadecimal - տասնվեցական
+network - ցանց
+octal - ութական
+programming - ծրագրավորում
+software - ծրագրային ապահովում
+upload - վերբեռնել
+user - օգտատեր
+variable - փոփոխական
+wireless - անլար
