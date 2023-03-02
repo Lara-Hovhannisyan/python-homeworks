@@ -26,10 +26,9 @@
 # def str_in_str(str1, str2):
 #     for i in str2:
 #         if i in str1:
-#             return str1.index(i)
-#
-#
-# print(str_in_str('HelloWorld', 'World'))
+#             return str1.index(str2)
+
+# print(str_in_str("HeWlloWorld", "World"))
 
 # string = “Hello”, number = 2, bool = True, Output: loHel
 
@@ -50,13 +49,13 @@
 #         return ls.index(target)
 #     else:
 #         for i in range(len(ls) - 1):
-#             if ls[i] < target < ls[i + 1]:
+#             if ls[i] < target < ls[i + 1] or target < ls[0]:
 #                 ls.append(target)
 #                 ls.sort()
 #                 return ls.index(target)
 #
 #
-# print(nums_index([1, 3, 5, 6, 7, 9], 10))
+# print(nums_index([2, 3, 5, 6, 7, 9], 10))
 
 # Create Matrix
 # a, b = int(input()), int(input())
