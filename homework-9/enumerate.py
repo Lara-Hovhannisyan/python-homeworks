@@ -1,5 +1,8 @@
-names = ['Leo', 'Aria', 'Lisa']
+def enum(iterable, start=0):
+    if start > len(iterable):
+        return
+    count = start
+    for el in iterable:
+        yield count, el
 
-if iter(names):
-    for index, name in enumerate(names):
-        print(index, name)
+
