@@ -1,14 +1,10 @@
-ages = [5, 12, 15, 17, 18, 24, 32]
+def my_filter(function, iterable):
+    result = []
+    for i in iterable:
+        if function(i):
+            result.append(i)
+    return result
 
-
-def teen_ages(age):
-    if 13 < age < 20:
-        return True
-    else:
-        return False
-
-
-teens = filter(teen_ages, ages)
-
-for x in teens:
-    print(x)
+x = [1, 2, 3]
+filtered_x = my_filter(lambda y: y > 1, x)
+print(filtered_x)
