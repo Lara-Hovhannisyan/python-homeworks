@@ -5,4 +5,3 @@ def enum(iterable, start=0):
     for el in iterable:
         yield count, el
 
-
