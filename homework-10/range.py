@@ -13,5 +13,3 @@ ls = [1,2,3,4,5]
 for n in my_range(len(ls)):
   print(n)
 
-
-
