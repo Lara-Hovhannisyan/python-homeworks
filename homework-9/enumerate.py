@@ -4,4 +4,5 @@ def enum(iterable, start=0):
     count = start
     for el in iterable:
         yield count, el
+        count += 1
 
